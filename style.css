@@ -1,0 +1,16 @@
+body {
+    font-family: "Trebuchet MS";
+    background-color: goldenrod;
+}
+.titre1
+{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    color: brown;
+}
+
+
+.cadre1{
+    background-color: olive;
+    text-decoration: underline;
+}
