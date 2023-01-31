@@ -14,3 +14,9 @@ body {
     background-color: olive;
     text-decoration: underline;
 }
+
+.cadre2{
+    background-color: rgb(163, 201, 252);
+    text-decoration: underline;
+    margin: 10%;
+}
