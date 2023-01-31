@@ -1,0 +1,42 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Mon Menu</title>
+        
+    </head>
+    <body>
+        <form method="post" action="" enctype="multipart/form-data">
+            <label for="pseudo">Pseudo *</label>
+            <input type="text" id="pseudo" name="pseudo" required><br>
+             
+            <label for="mdp">Mot de passe</label>
+            <input type="password" id="mdp" name="mdp"><br>
+             
+            <label for="prenom">Prenom</label>
+            <input type="text" id="prenom" name="prenom" placeholder="Votre prenom"><br>
+             
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email"><br>
+             
+            <label for="avatar">Avatar</label>
+            <input type="file" id="avatar" name="avatar" multiple><br>
+             
+            <label for="Pays">Pays</label>
+            <select id="Pays" name="pays">
+                <optgroup label="Europe">
+                    <option value="fr">France</option>
+                    <option value="it">Italie</option>
+                    <option value="es" selected>Espagne</option>
+                </optgroup>
+            </select><br>
+     
+            <label for="choix">Quel sont vos fruits préférés ?</label>
+            <p><input type="checkbox" name="choix" checked> Orange
+            <input type="checkbox" name="choix"> Fraise
+            <input type="checkbox" name="choix"> Poire</p>
+     
+            <input type="submit" value="sauvegarder">
+        </form>
+    </body>
+</html>  
